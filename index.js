@@ -2,9 +2,10 @@ const express = require("express")
 const Clarifai = require("clarifai")
 const multer = require("multer")
 const pug = require("pug")
+const path = require('path')
+const PORT = process.env.PORT || 5000
 
 const app = express()
-const port = 3000
 
 const upload = multer()
 const resultsTemplate = pug.compileFile("results.pug")
