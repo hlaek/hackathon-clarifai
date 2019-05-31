@@ -41,4 +41,4 @@ app.post("/upload", upload.single("photo"), (req, res) => {
 
 
 app.use(express.static("public"))
-app.listen(process.env.PORT || 5000) => console.log(`Running on http://localhost:${port}/`))
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
