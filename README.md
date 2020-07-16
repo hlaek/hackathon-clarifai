@@ -1,2 +1,2 @@
 # hackathon-clarifai
-an image recognition web app to be used as an instore game for my retail employer's Hackathon. 
+an image recognition web app to be used as an instore game, created during our company Hackathon. 
